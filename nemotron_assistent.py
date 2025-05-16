@@ -3,8 +3,8 @@ import time
 from termcolor import colored
 
 # NVIDIA Nemotron API setup
-openai_api_key = "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"
-openai_api_base = "https://integrate.api.nvidia.com/v1"
+openai_api_key = ""
+openai_api_base = ""
 
 client = openai.OpenAI(api_key=openai_api_key, base_url=openai_api_base)
 
